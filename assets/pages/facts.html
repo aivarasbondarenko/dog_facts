@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DOG FACTS</title>
+        <meta charset="utf-8">
+        <meta name="description" content="dof facts">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Aivaras Bondarenko">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500;700;800;900&family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">   
+        <script src="https://kit.fontawesome.com/a914cb10b3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="grad1">
+            <nav class="navbar container ">
+                <h1>AIVARAS BONDARENKO</h1>
+                <ul class="flex">
+                    <li>
+                        <a href="https://www.facebook.com/Dog-Facts-1771137469783440/">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                   
+                    <li>
+                        <a href="https://www.instagram.com/explore/tags/dogfacts/">
+                            <i class="fab fa-instagram-square"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/cooldogfacts">
+                            <i class="fab fa-twitter-square"></i>
+                        </a> 
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/aivarasbondarenko">
+                            <i class="fab fa-github-square"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="fact-background">
+            <div class="container flex fact-container">
+                <form name="form">
+                    <div class="form-group">
+                      <label>How many facts do you want?</label>
+                      <input type="number" class="form-control" name="number" min="2" max="63">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                
+                  <aside>
+                    <ol class="dog-facts">
+                   
+                    </ol> 
+                  </aside>
+            </div>
+        </main>
+        <script src="../javaScript/facts.js"></script>
+    </body>
+</html>
